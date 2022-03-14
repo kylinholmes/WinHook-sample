@@ -1,3 +1,0 @@
-D:\Scoop\apps\cmake\3.22.3\bin\cmake.exe -E rm -f CMakeFiles\MouseHook.dir/objects.a
-D:\Choco\bin\ar.exe qc CMakeFiles\MouseHook.dir/objects.a @CMakeFiles\MouseHook.dir\objects1.rsp
-D:\Choco\bin\g++.exe -Wl,--whole-archive CMakeFiles\MouseHook.dir/objects.a -Wl,--no-whole-archive -o MouseHook.exe -Wl,--out-implib,libMouseHook.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\MouseHook.dir\linklibs.rsp
