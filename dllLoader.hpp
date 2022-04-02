@@ -17,6 +17,9 @@ struct dllLoader{
         }
         return mouseHookFunc;
     }
+    ~dllLoader() {
+            FreeLibrary(dll);
+    }
 };
 
 #endif
